@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+.bg-img {
+    background-image: url("images/Banner-3.0.png");
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+.container-fluid {
+  padding: 1.5% 3% 7%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: +1;
+}
+
+.navbar {
+  padding: 0 5px 5px 0;
+}
+  
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: auto;
+  font-weight: bold;
+}
+  
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+#navbarSupportedContent {
+  background-color: rgba(167, 173, 180, 0.4);
+}
+
+  body {
+    background-color: #ffffff;
+}
+
+  h2 {
+    font-family: "Montserrat-Light";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.h2aa{
+  text-align: center;
+  padding-top: 3rem;
+}
+
+h3 {
+  font-family: "Montserrat-Light";
+  text-align: center;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Montserrat-Light";
+}
+
+.container-fluid2 {
+  padding: 1.5% 1.5% 1.5%;
+}
+
+.vedaImage {
+  text-align: center;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+hr.center-diamond {
+  
+  border: 0;
+  height: 1.5px;
+  width: 12%;
+  position: relative;
+  margin: 1.5% auto;
+}
+
+.center-diamond{
+  background: rgb(255, 255, 255);
+  
+  &:before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    border: 5px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin: 0 0 0 -3px;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+  }
+}
+
+.vedaIntro {
+  margin: 1.5%;
+  padding: 2%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #000000;
+}
+
+#more {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+  border: 1px solid #000000;
+  background-color: transparent;
+  height: 30px;
+  width: 100px;
+  color: #000000;
+  font-size: 0.8rem;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.bg-img2 {
+  background-image: url("images/PP-BG.png");
+
+  min-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.rowDiv {
+  margin: 0 auto 0;
+}
+
+.product-box {
+  padding: auto;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.product_images{
+  margin-bottom: 1rem;
+}
+
+.cardBody {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  width: 80%;
+  margin: 0 auto;
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+hr.style {
+  height: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  }
+  hr.style:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+  }
+
+.text-outline {
+  color: rgb(0, 0, 0);
+	font-size: 1rem;
+}
+
+.text-outline:hover {
+  color: #0a0eea;
+}
+
+hr.boldHr {
+  border-width: 8px;
+}
+
+.lastMImage {
+  text-align: center;
+  padding: auto;
+}
+
+.limg {
+  width: 300px;
+}
+
+hr.center-diamond {
+  
+  border: 0;
+  height: 1.5px;
+  width: 12%;
+  position: relative;
+  margin: 1.5% auto;
+}
+
+.center-diamond{
+  background: rgb(255, 255, 255);
+  
+  &:before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    border: 5px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin: 0 0 0 -3px;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+  }
+}
+
+.lastMIntro {
+  margin: 1.5%;
+  padding: 2%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #000000;
+}
+
+.bg-img3 {
+  background-image: url("images/PP-BG.png");
+  min-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 1.5% 1.5% 1.5%;
+}
+
+.bulkSection {
+  background-image: url("images/BulkSectionBackground.png");
+
+  min-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bulkrow {
+  margin: 0 auto 0;
+}
+
+.bulkImg {
+  padding: auto;
+  text-align: center;
+}
+
+.bg-img4 {
+  background-image: url("images/BulkSectionBackground.png");
+  min-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 1.5% 1.5% 1.5%;
+}
+
+.contactSection {
+  background-image: url("images/PP-BG.png");
+
+  min-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0 5% 3%;
+}
+
+#footer {
+  padding: 2% 8%;
+  text-align: center;
+}
+
+.footer_p{
+  font-family: "Dancing Script";
+  font-size: 1.2rem;
+}
+
+.btn2 {
+  margin: 15px;
+}
